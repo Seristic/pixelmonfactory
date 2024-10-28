@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "pixelmon:berries/juice/purple"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "pixelmonfactory:purple_berry_juice",
+      "amount": 100
+    }
+  ]
+}

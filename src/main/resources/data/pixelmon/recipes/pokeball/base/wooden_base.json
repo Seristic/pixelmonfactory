@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "pixelmonfactory:wooden_base_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:wooden_base",
+      "count": 1
+    }
+  ]
+}

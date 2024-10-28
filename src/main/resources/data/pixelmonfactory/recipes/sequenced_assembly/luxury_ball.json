@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t3_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "luxury_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteluxuryball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "luxury_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteluxuryball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteluxuryball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteluxuryball"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 70.0,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "luxury_ball"
+      }
+    },
+    {
+      "chance": 30.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "luxury_ball"
+      }
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompleteluxuryball"
+  }
+}

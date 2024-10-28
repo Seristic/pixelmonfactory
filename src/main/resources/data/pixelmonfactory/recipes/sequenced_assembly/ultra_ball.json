@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t3_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 90,
+      "item": "pixelmon:poke_ball",
+      "count": 1,
+      "nbt": {
+        "PokeBallID": "ultra_ball"
+      }
+    },
+    {
+      "chance": 8.0,
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "ultra_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteultraball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "ultra_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteultraball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteultraball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteultraball"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompleteultraball"
+  }
+}

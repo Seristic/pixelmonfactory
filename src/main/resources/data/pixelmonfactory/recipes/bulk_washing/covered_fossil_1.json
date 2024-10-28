@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "pixelmon:covered_fossil_1"
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:dome_fossil"
+    }
+  ]
+}

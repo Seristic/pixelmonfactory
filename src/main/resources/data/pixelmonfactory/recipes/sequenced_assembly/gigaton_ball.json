@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t4_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 95.0,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "gigaton_ball"
+      }
+    },
+    {
+      "chance": 5.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "gigaton_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletegigatonball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "gigaton_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletegigatonball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletegigatonball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletegigatonball"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompletegigatonball"
+  }
+}

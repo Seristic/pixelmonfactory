@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "pixelmon:covered_fossil_11"
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:bird_fossil"
+    }
+  ]
+}

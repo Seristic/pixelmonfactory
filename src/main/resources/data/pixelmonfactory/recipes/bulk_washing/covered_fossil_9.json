@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "pixelmon:covered_fossil_9"
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:jaw_fossil"
+    }
+  ]
+}

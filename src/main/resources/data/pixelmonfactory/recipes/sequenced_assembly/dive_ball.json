@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t2_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 120,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "dive_ball"
+      }
+    },
+    {
+      "chance": 10.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "dive_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletediveball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "dive_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletediveball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletediveball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletediveball"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompletediveball"
+  }
+}

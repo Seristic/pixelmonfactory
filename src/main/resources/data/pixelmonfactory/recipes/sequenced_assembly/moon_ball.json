@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t2_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "moon_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletemoonball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "moon_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletemoonball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletemoonball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletemoonball"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 85.0,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "moon_ball"
+      }
+    },
+    {
+      "chance": 15.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "moon_ball"
+      }
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompletemoonball"
+  }
+}

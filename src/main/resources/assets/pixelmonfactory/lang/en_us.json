@@ -1,0 +1,57 @@
+{
+  "creativetab.pixelmonfactory_tab": "Pixelmon Factory",
+
+  "item.pixelmonfactory.incompletepokeball": "Incomplete Poke Ball",
+  "item.pixelmonfactory.incompletegreatball": "Incomplete Great Ball",
+  "item.pixelmonfactory.incompleteultraball": "Incomplete Ultra Ball",
+  "item.pixelmonfactory.incompletediveball": "Incomplete Dive Ball",
+  "item.pixelmonfactory.incompleteduskball": "Incomplete Dusk Ball",
+  "item.pixelmonfactory.incompletefastball": "Incomplete Fast Ball",
+  "item.pixelmonfactory.incompletefeatherball": "Incomplete Feather Ball",
+  "item.pixelmonfactory.incompletefriendball": "Incomplete Friend Ball",
+  "item.pixelmonfactory.incompletegigatonball": "Incomplete Gigaton Ball",
+  "item.pixelmonfactory.incompletehealball": "Incomplete Heal Ball",
+  "item.pixelmonfactory.incompleteheavyball": "Incomplete Heavy Ball",
+  "item.pixelmonfactory.incompletejetball": "Incomplete Jet Ball",
+  "item.pixelmonfactory.incompleteloveball": "Incomplete Love Ball",
+  "item.pixelmonfactory.incompletelureball": "Incomplete Lure Ball",
+  "item.pixelmonfactory.incompleteluxuryball": "Incomplete Luxury Ball",
+  "item.pixelmonfactory.incompletemoonball": "Incomplete Moon Ball",
+  "item.pixelmonfactory.incompletenetball": "Incomplete Net Ball",
+  "item.pixelmonfactory.incompleteparkball": "Incomplete Park Ball",
+  "item.pixelmonfactory.incompletepremierball": "Incomplete Premier Ball",
+  "item.pixelmonfactory.incompletequickball": "Incomplete Quick Ball",
+  "item.pixelmonfactory.incompleterepeatball": "Incomplete Repeat Ball",
+  "item.pixelmonfactory.incompletesafariball": "Incomplete Safari Ball",
+  "item.pixelmonfactory.incompletesportball": "Incomplete Sport Ball",
+  "item.pixelmonfactory.incompletetimerball": "Incomplete Timer Ball",
+  "item.pixelmonfactory.incompletewingball": "Incomplete Wing Ball",
+  "item.pixelmonfactory.incompleteancientgreatball": "Incomplete Ancient Great Ball",
+  "item.pixelmonfactory.incompleteancientheavyball": "Incomplete Ancient Heavy Ball",
+  "item.pixelmonfactory.incompleteancientpokeball": "Incomplete Ancient Poke Ball",
+  "item.pixelmonfactory.incompleteancientultraball": "Incomplete Ancient Ultra Ball",
+
+
+
+  "item.pixelmonfactory.empty_potion": "Empty Potion",
+
+
+  "item.pixelmonfactory.platinum_base_plate": "Platinum Plate",
+  "item.pixelmonfactory.aluminum_base_plate": "Aluminum Plate",
+  "item.pixelmonfactory.iron_base_plate": "Iron Plate",
+  "item.pixelmonfactory.wooden_base_plate": "Wooden Plate",
+  "item.pixelmonfactory.silver_base_plate": "Silver Plate",
+
+  "item.pixelmonfactory.blue_berry_juice_bucket": "Blue Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.blue_berry_juice": "Blue Berry juice",
+  "item.pixelmonfactory.green_berry_juice_bucket": "Green Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.green_berry_juice": "Green Berry Juice",
+  "item.pixelmonfactory.pink_berry_juice_bucket": "Pink Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.pink_berry_juice": "Pink Berry Juice",
+  "item.pixelmonfactory.purple_berry_juice_bucket": "Purple Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.purple_berry_juice": "Purple Berry Juice",
+  "item.pixelmonfactory.red_berry_juice_bucket": "Red Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.red_berry_juice": "Red Berry Juice",
+  "item.pixelmonfactory.yellow_berry_juice_bucket": "Yellow Berry Juice Bucket",
+  "fluid_type.pixelmonfactory.yellow_berry_juice": "Yellow Berry Juice"
+}

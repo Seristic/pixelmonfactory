@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "pixelmonfactory:empty_potion"
+    },
+    {
+      "fluidTag": "pixelmonfactory:red_yellow_juice_tag",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:super_potion"
+    }
+  ]
+}

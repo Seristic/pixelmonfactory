@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.seristic.pixelmonfactory.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "pixelmonfactory.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

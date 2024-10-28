@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "pixelmonfactory:aluminum_base_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "pixelmon:aluminum_base",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t4_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "ancient_poke_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteancientpokeball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "ancient_poke_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteancientpokeball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompleteancientpokeball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompleteancientpokeball"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 80.0,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "ancient_poke_ball"
+      }
+    },
+    {
+      "chance": 20.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "ancient_poke_ball"
+      }
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompleteancientpokeball"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "pixelmonfactory:t2_bases"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "lure_ball"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletelureball"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "pixelmon:poke_ball_lid",
+          "nbt": {
+            "PokeBallID": "lure_ball"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletelureball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pixelmonfactory:incompletelureball"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "pixelmonfactory:incompletelureball"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 80.0,
+      "item": "pixelmon:poke_ball",
+      "nbt": {
+        "PokeBallID": "lure_ball"
+      }
+    },
+    {
+      "chance": 20.0,
+      "type": "forge:nbt",
+      "item": "pixelmon:poke_ball_lid",
+      "nbt": {
+        "PokeBallID": "lure_ball"
+      }
+    }
+  ],
+  "transitionalItem": {
+    "item": "pixelmonfactory:incompletelureball"
+  }
+}

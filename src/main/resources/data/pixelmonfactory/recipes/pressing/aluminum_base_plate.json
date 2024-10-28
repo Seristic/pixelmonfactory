@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/aluminum"
+    }
+  },
+  "result": {
+    "item": "pixelmonfactory:aluminum_base_plate",
+    "count": 5
+  }
+}

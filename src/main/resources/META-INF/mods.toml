@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="pixelmonfactory"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://github.com/EnvyWare" # URL HERE
+credits="https://github.com/EnvyWare" # Your name here
+authors="https://github.com/EnvyWare" # Your name here
+description='''${mod_description}'''
+ordering="AFTER"
+
+[[dependencies.pixelmonfactory]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pixelmonfactory]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pixelmonfactory]]
+    modId="pixelmon"
+    mandatory=true
+    versionRange="[9.2.3,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.pixelmonfactory]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1.i,)"
+    ordering="AFTER"
+    side="BOTH"
