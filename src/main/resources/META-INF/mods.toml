@@ -6,9 +6,9 @@ license="${mod_license}"
 modId="pixelmonfactory"
 version="${mod_version}"
 displayName="${mod_name}"
-displayURL="https://github.com/EnvyWare" # URL HERE
-credits="https://github.com/EnvyWare" # Your name here
-authors="https://github.com/EnvyWare" # Your name here
+displayURL="https://modrinth.com/mod/pixelmon-factory"
+credits=""
+authors="Seristic"
 description='''${mod_description}'''
 ordering="AFTER"
 

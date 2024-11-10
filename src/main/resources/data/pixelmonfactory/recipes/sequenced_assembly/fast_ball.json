@@ -13,7 +13,7 @@
       }
     },
     {
-      "chance": 10.0,
+      "chance": 5.0,
       "type": "forge:nbt",
       "item": "pixelmon:poke_ball_lid",
       "nbt": {

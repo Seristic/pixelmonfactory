@@ -6,7 +6,7 @@
   "loops": 1,
   "results": [
     {
-      "chance": 90.0,
+      "chance": 110.0,
       "item": "pixelmon:poke_ball",
       "count": 1,
       "nbt": {
@@ -14,7 +14,7 @@
       }
     },
     {
-      "chance": 10.0,
+      "chance": 6.0,
       "item": "pixelmon:poke_ball_lid",
       "nbt": {
         "PokeBallID": "net_ball"

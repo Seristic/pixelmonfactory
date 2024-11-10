@@ -14,7 +14,7 @@
       }
     },
     {
-      "chance": 1.0,
+      "chance": 5.0,
       "item": "pixelmon:poke_ball_lid",
       "nbt": {
         "PokeBallID": "poke_ball"

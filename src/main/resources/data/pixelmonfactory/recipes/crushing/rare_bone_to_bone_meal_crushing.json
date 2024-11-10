@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "pixelmon:rare_bone"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "item": "minecraft:bone_meal",
+      "count": 16
+    }
+  ]
+}

@@ -52,14 +52,14 @@
   ],
   "results": [
     {
-      "chance": 80.0,
+      "chance": 120.0,
       "item": "pixelmon:poke_ball",
       "nbt": {
         "PokeBallID": "love_ball"
       }
     },
     {
-      "chance": 20.0,
+      "chance": 10.0,
       "type": "forge:nbt",
       "item": "pixelmon:poke_ball_lid",
       "nbt": {

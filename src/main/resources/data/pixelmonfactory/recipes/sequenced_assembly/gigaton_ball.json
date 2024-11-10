@@ -6,14 +6,14 @@
   "loops": 1,
   "results": [
     {
-      "chance": 95.0,
+      "chance": 120.0,
       "item": "pixelmon:poke_ball",
       "nbt": {
         "PokeBallID": "gigaton_ball"
       }
     },
     {
-      "chance": 5.0,
+      "chance": 6.0,
       "type": "forge:nbt",
       "item": "pixelmon:poke_ball_lid",
       "nbt": {

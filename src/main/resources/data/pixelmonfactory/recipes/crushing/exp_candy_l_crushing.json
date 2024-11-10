@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "pixelmon:xl_exp_candy"
+    }
+  ],
+  "processingTime": 550,
+  "results": [
+    {
+      "item": "pixelmon:l_exp_candy",
+      "count": 1
+    },
+    {
+      "item": "pixelmon:l_exp_candy",
+      "chance": 0.05
+    },
+    {
+      "item": "pixelmon:m_exp_candy",
+      "chance": 0.07
+    },
+    {
+      "item": "pixelmon:s_exp_candy",
+      "chance": 0.07
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.02
+    }
+  ]
+}

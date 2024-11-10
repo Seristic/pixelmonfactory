@@ -1,6 +1,7 @@
 package com.seristic.pixelmonfactory.common.init;
 
 import com.seristic.pixelmonfactory.PixelmonFactory;
+import com.seristic.pixelmonfactory.common.food.ModFood;
 import com.seristic.pixelmonfactory.common.item.ModItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -55,6 +56,7 @@ public class CreativeTabInit {
 
                         // Healing Items
                         pOutput.accept(ModItem.EMPTY_POTION.get());
+                        pOutput.accept(ModItem.BERRY_BOWL.get());
 
                         // Crafting
                         pOutput.accept(ModItem.PLATINUMBASEPLATE.get());

@@ -6,7 +6,7 @@
   "loops": 1,
   "results": [
     {
-      "chance": 120,
+      "chance": 120.0,
       "item": "pixelmon:poke_ball",
       "nbt": {
         "PokeBallID": "dive_ball"

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "pixelmon:star_piece"
+    }
+  ],
+  "processingTime": 750,
+  "results": [
+    {
+      "item": "pixelmon:stardust",
+      "count": 2
+    }
+  ]
+}

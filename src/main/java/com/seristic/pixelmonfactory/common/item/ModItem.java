@@ -2,6 +2,7 @@ package com.seristic.pixelmonfactory.common.item;
 
 import com.pixelmonmod.pixelmon.client.gui.battles.battleScreens.screens.bag.ItemMenuButton;
 import com.seristic.pixelmonfactory.common.fluid.ModFluids;
+import com.seristic.pixelmonfactory.common.food.ModFood;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -45,6 +46,7 @@ public class ModItem {
 
     // Healing
     public static final RegistryObject<Item> EMPTY_POTION = ITEMS.register("empty_potion", () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> BERRY_BOWL = ITEMS.register("berry_bowl", () -> new Item(new Item.Properties().food(ModFood.BERRY_BOWL).stacksTo(1)));
 
     // Crafting
     public static final RegistryObject<Item> PLATINUMBASEPLATE = ITEMS.register("platinum_base_plate", () -> new Item(new Item.Properties()));

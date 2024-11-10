@@ -6,14 +6,14 @@
   "loops": 1,
   "results": [
     {
-      "chance": 90.0,
+      "chance": 110.0,
       "item": "pixelmon:poke_ball",
       "nbt": {
         "PokeBallID": "dusk_ball"
       }
     },
     {
-      "chance": 10.0,
+      "chance": 9.0,
       "type": "forge:nbt",
       "item": "pixelmon:poke_ball_lid",
       "nbt": {
